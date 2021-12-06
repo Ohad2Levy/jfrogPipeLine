@@ -3,6 +3,6 @@ resources:
     type: GitRepo
     configuration:
       gitProvider: GitHubIntegration
-      path: pathOne
+      path: ~pathOne
       branches:
         include: main

@@ -1,0 +1,8 @@
+resources:
+  - name: jfrogPipeLine
+    type: GitRepo
+    configuration:
+      gitProvider: GitHubIntegration
+      path: /
+      branches:
+        include: main
